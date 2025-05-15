@@ -13,22 +13,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/quran.webp",
+        "foregroundImage": "./assets/images/logoicon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.nafiziqbal.AlQuran"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/quran.webp"
+      "favicon": "./assets/images/logoicon.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/quran.webp",
+          "image": "./assets/images/logoicon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "cea30355-5e8c-4ebc-84ed-9894ac7aa741"
+      }
     }
   }
 }
