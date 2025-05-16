@@ -19,8 +19,8 @@ export default function HomeScreen() {
   return (
     <SafeAreaView className="flex-1 bg-[#16B85F]">
       {/* Header Section */}
-      <View className="h-[18%] mt-2 mb-2 bg-[#16B85F] rounded-b-full items-center justify-center">
-        <View className="w-20 h-20 mb-2 overflow-hidden">
+      <View className="h-[18%] mt-2 mb-2 bg-gradient-to-b from-[#1ED975] via-[#16B85F] to-[#0E8A45] rounded-b-full items-center justify-center">
+        <View className="w-20 h-20 flex items-center justify-center mb-2">
           <Image 
             source={require('../../assets/images/quran.webp')}
             style={{

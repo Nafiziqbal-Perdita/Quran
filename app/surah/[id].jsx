@@ -36,9 +36,9 @@ const SurahDetails = () => {
     }
 
     const renderVerse = ({ item }) => (
-        <View className="flex-row items-start mb-6 px-2">
+        <View className="flex-row items-start mb-6 px-2 shadow-lg">
             {/* Verse number circle */}
-            <View className="w-8 h-8 rounded-full bg-[#5B3FA2] items-center justify-center mt-1 mr-3">
+            <View className="w-8 h-8 rounded-full bg-[#5B3FA2] items-center justify-center mt-1 mr-3 ">
                 <Text className="text-[#CDF6E2] font-bold">{item.id}</Text>
             </View>
             {/* Verse content stacked vertically */}

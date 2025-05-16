@@ -7,21 +7,15 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <StatusBar hidden={true} />
-      <Stack>
-        <Stack.Screen
-          name="(tabs)"
-          options={{
-            headerShown: false,
-          }}
-        />
-
-        <Stack.Screen
-          name="surah/[id]"
-          options={{
-            headerShown: false,
-          }}
-        />
+      <Stack screenOptions={{
+        headerShown: false,
+        animation: 'none',
+        contentStyle: { backgroundColor: 'white' }
+      }}>
+        <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="surah/[id]" />
       </Stack>
     </SafeAreaProvider>
   );
 }
+ 

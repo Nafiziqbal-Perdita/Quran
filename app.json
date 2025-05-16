@@ -4,7 +4,7 @@
     "slug": "Al-Quran",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/quran.webp",
+    "icon": "./assets/images/logoicon.png",
     "scheme": "alquran",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logoicon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#16B85F"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.nafiziqbal.AlQuran"
@@ -32,7 +32,7 @@
           "image": "./assets/images/logoicon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#16B85F"
         }
       ]
     ],

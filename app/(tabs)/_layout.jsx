@@ -7,9 +7,20 @@ const TabsLayout = () => {
     <Tabs
       screenOptions={{
         headerShown: false,
+        animation: 'none',
         tabBarStyle: {
-         
-        }
+          backgroundColor: 'white',
+          borderTopWidth: 1,
+          borderTopColor: '#e5e5e5',
+          height: 60,
+          paddingBottom: 8,
+          paddingTop: 8
+        },
+        tabBarActiveTintColor: '#16B85F',
+        tabBarInactiveTintColor: '#666666',
+        lazy: true,
+        freezeOnBlur: true,
+        detachInactiveScreens: false
       }}>
       <Tabs.Screen
         name="index"
@@ -32,4 +43,5 @@ const TabsLayout = () => {
     </Tabs>
   )
 }
+
 export default TabsLayout
